@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "braintree-web": "registry:dt/braintree-web#3.6.1+20161212201449",
+    "react-responsive": "registry:dt/react-responsive#1.1.3+20161121205806"
+  }
+}

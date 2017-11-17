@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/8b880a3350e874ea65fd9f72e23c43424ff71dd2/braintree-web/index.d.ts",
+    "raw": "registry:dt/braintree-web#3.6.1+20161212201449",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/8b880a3350e874ea65fd9f72e23c43424ff71dd2/braintree-web/index.d.ts"
+  }
+}

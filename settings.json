@@ -1,0 +1,25 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+       "MONGO_URL": "mongodb://meteor:t&0OOvyBe1Mo@ds149567.mlab.com:49567/thefellowshipapp"
+     }
+   },
+   "private": {
+     "YELP_APP_ID": "rbh0NexsAj8CQyo25nr2cA",
+     "YELP_APP_SECRET": "wHfDj0XjYcdUhp1ll8xqP8TMWBKE8rwHn0BAKOgGPiS7o5VQKGtFzvGoVZwyyGfa",
+     "S3_BUCKET": "tfadev1",
+     "AWS_ACCESS_KEY_ID": "AKIAJLNNRK7TT4US43OQ",
+     "AWS_SECRET_ACCESS_KEY": "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",
+     "AWS_REGION": "us-west-1",
+     "S3_ASSET_URL": "https://tfadev1.s3-us-west-1.amazonaws.com",
+     "braintree": {
+      "merchantId": "zk6yjr4byqwqpf6r",
+      "publicKey": "yjgsfr4tm76mt9dz",
+      "privateKey": "40e1025489386829d8af04f2ad216ac4"
+     }
+   },
+  "smtp": {
+    "username": "postmaster@simco-online.com",
+    "password": "aef770d5e52f9de09bc945f6a098ed8f"
+  }
+}

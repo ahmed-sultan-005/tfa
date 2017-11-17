@@ -1,0 +1,392 @@
+// Place all the styles related to the landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.landing-contact {
+  margin: 2px 29px 0px 60px;
+  padding: 0px;
+}
+.description-about {
+  padding-right: 7px;
+  width: 98% !important;
+  font-size: 12px !important;
+  font-weight: 100 !important;
+  color: black !important;
+}
+textarea {
+   resize: none;
+}
+.map-service-container {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-height: 354px;
+    margin-right: 28px;
+}
+.photo-service-container {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-height: auto !important;
+    margin-right: 28px;
+    background: white;
+}
+.photoUpload div {
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 140px;
+  width: 140px;
+}
+.photosAdd {
+  padding-left: 57px;
+  padding-top: 13px;
+  color: black;
+}
+.addImageText {
+  display: block;
+  position: relative;
+  margin-left: -21px;
+  margin-top: 11px;
+}
+.photoUploadArea {
+  border: 2px dotted #ddd;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 140px;
+  width: 140px;
+}
+.giving-service-container {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-height: auto;
+    margin-right: 28px;
+    background: white;
+    margin-bottom: 85px;
+ }
+.giving-padding {
+  margin-right: 0px;
+ }
+#creditCardForm {
+  margin-left: 28px;
+}
+.ccName {
+  width: 95% !important;
+  margin-top: 13px !important;
+  font-size: 15px !important;
+  display: inline-block !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  box-sizing: border-box !important;
+  height: 33px !important;
+  border-radius: 2px !important;
+  box-shadow: rgb(204, 204, 204) 3px 1px 2px !important;
+}
+.ccExp {
+  width: 95% !important;
+  margin-top: 13px !important;
+  font-size: 15px !important;
+  display: inline-block !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  box-sizing: border-box !important;
+  height: 33px !important;
+  border-radius: 2px !important;
+  box-shadow: rgb(204, 204, 204) 3px 1px 2px !important;
+}
+.ccCCV {
+ width: 95% !important;
+  margin-top: 13px !important;
+  font-size: 15px !important;
+  display: inline-block !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  box-sizing: border-box !important;
+  height: 33px !important;
+  border-radius: 2px !important;
+  box-shadow: rgb(204, 204, 204) 3px 1px 2px !important;
+}
+.isEqual{
+  padding-left: 29px;
+}
+.cnclButn {
+    margin-right: 13px;
+    background-color: #ccc !important;
+}
+.routing {
+  width: 63% !important;
+  margin-top: 13px !important;
+  font-size: 15px !important;
+  display: inline-block !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  box-sizing: border-box !important;
+  height: 33px !important;
+  border-radius: 2px !important;
+  box-shadow: rgb(204, 204, 204) 3px 1px 2px !important;
+
+}
+
+.saveCard{
+  margin-left: 15px;
+
+}
+.givingFacebook {
+  height: 30px;
+  width: 30px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+hr {
+  magin: 0px;
+}
+.map-input-area{
+    height: 47px;
+    background: #dedede;
+    margin-left: -15px;
+    width: 107%;
+}
+.mapTextArea{
+    margin-left: 12px;
+    width: 87%;
+    padding-top: 3%;
+    font-style: italic;
+}
+.map-pencil{
+    float: right;
+    margin-top: -42px;
+    margin-right: 7px;
+}
+.map-app{
+    margin-left: -17px;
+    min-width: 107%;
+    height: 65%;
+}
+.serviceTime {
+  background: white;
+  margin-left: -17px;
+  min-width: 107%;
+  height: 32px;
+}
+.serviceTime span {
+  font-size: 18px;
+  color: gray;
+  font-weight: 400;
+  font-family: inherit;
+  padding-left: 13px;
+}
+.serviceTime .fa-pencil {
+  margin-right: 7px;
+  margin-top: -22px;
+}
+.service-time-text{
+  background: white;
+  padding: -12px;
+  margin-top: 0px;
+  padding: 10px;
+  font-size: 13px;
+
+}
+.hrr {
+  width: 103%;
+  margin-left: -7px;
+}
+.upComing {
+  color: black;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 41px;
+}
+.rc-calendar {
+  width: 100%;
+}
+.rc-calendar-panel {
+  margin-top: 42px !important;
+}
+.rc-calendar-date-panel {
+  width: 100%;
+}
+.rc-calendar-tbody tr {
+  background-color: white !important;
+}
+@media only screen and (max-width: 1000px) {
+  #profile_img {
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+
+    position: absolute;
+
+    border-radius: 50%;
+    height: 98px;
+ }
+ .mrgn-btm {
+  margin-bottom: 16px;
+ }
+ .serviceTime {
+  background: white;
+  margin-left: -15px;
+  min-width: 105%;
+  height: 32px;
+}
+ .map-input-area {
+    margin-left: -15px;
+    width: 102%;
+
+ }
+.map-app{
+    margin-left: -14px;
+    min-width: 104%;
+    height: 65%;
+}
+ .about-us-sec {
+    margin-left: -9px !important;
+    height: 42px;
+    background: white;
+    width: 104%;
+    padding-left: 9px !important;
+    padding-top: 8px !important;
+    color: gray;
+    font-weight: 600;
+}
+
+ .prof-pic-camera{
+    position: absolute !important;
+    margin-top: -37px !important;
+
+ }
+ #name-on-header {
+  font-size: 15px !important;
+ }
+ #info-box {
+    margin-left: 0px !important;
+ }
+ .join{
+    border-left: none !important;
+ }
+ .join-bookmark {
+    float: left;
+    width: 114%;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-left: -9px;
+ }
+ .landing-contact {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+ .fa-phone {
+  padding-left: 132px !important;
+ }
+ .ed-en-d{
+  text-align: center;
+ }
+}
+@media only screen and (max-width: 502px) {
+  .join-bookmark {
+    float: left;
+    width: 114%;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 19px;
+  }
+  .bookmark {
+    border-right: none;
+  }
+  .phone-field {
+    margin-left: 126px;
+  }
+  .calendar-area {
+    margin-top: 290px;
+    clear:both;
+  }
+  .liveStremsContainer{
+    height: auto;
+  }
+  .giving-service-container{
+    flex: 0 0 92%;
+    max-width: 96.2%;
+    margin-left: 21px;
+  }
+  .live-streams-area{
+    flex: 0 0 92%;
+    max-width: 96.2%;
+    margin-left: 21px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .calendar-area {
+    margin-top: 290px;
+    clear:both;
+  }
+  .liveStremsContainer {
+    height: auto;
+
+  }
+  .giving-service-container{
+    flex: 0 0 92%;
+    max-width: 96.2%;
+    margin-left: 21px;
+  }
+ .live-streams-area{
+    flex: 0 0 92%;
+    max-width: 96.2%;
+    margin-left: 21px;
+ }
+}
+
+@media only screen and (min-width: 1000px) {
+  .member-login-area{
+    margin-top: -271px;
+  }
+  .live-streams-area {
+    margin-top: -340px;
+    max-width: 48.2%;
+  }
+  .calendar-area {
+    margin-top: 368px;
+    left: 16px !important;
+    position: relative;
+    min-width: 107% !important;
+    bottom: 133px;
+  }
+  .map-service-time section {
+    width: 106% !important;
+    margin-left: -15px !important;
+    padding-left: 13px !important;
+  }
+  .hrr {
+   width: 107% !important;
+   margin-left: -14px !important;
+  }
+  .map-service-container {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-width: 5px !important;
+    flex: 0 0 47%;
+    max-width: 47%;
+    margin-right: 28px;
+  }
+  .photo-service-container  {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-width: 5px !important;
+    flex: 0 0 47%;
+    max-width: 47%;
+    margin-right: 28px;
+  }
+ .giving-service-container {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgb(204, 204, 204) 3px 1px 2px;
+    position: relative;
+    min-width: 5px !important;
+    flex: 0 0 47%;
+    max-width: 45.2%;
+    margin-right: 27px;
+    margin-left: 22px;
+ }
+ .live-streams-area{
+    height: 259px !important;
+  }
+}
+

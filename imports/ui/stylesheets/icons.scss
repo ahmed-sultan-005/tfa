@@ -1,0 +1,68 @@
+// Custom Icon
+.ci {
+
+	width: rem-calc(16);
+	height: rem-calc(16);
+
+	display: inline-block;
+	background-size: cover;
+
+	&.ci-32 {
+		width: rem-calc(32);
+		height: rem-calc(32);
+	}
+
+	&.ci-24 {
+		width: rem-calc(24);
+		height: rem-calc(24);
+	}
+
+	&.ci-12 {
+		width: rem-calc(12);
+		height: rem-calc(12);
+	}
+
+
+
+	&.ci-home {
+		background-image: url('/images/icons/home.png');
+	}
+
+	&.ci-bookmark {
+		background-image: url('/images/icons/bookmark.png');
+	}
+
+	&.ci-add-photo {
+		background-image: url('/images/icons/add-photo.png');
+	}
+
+	&.ci-edit {
+		background-image: url('/images/icons/edit.png');
+	}
+
+	&.ci-giving {
+		background-image: url('/images/icons/giving.png');
+	}
+
+	&.ci-messaging {
+		background-image: url('/images/icons/messaging.png');
+	}
+
+	&.ci-sharing {
+		background-image: url('/images/icons/sharing.png');
+	}
+
+	&.ci-share {
+		background-image: url('/images/icons/share.png');
+	}
+
+	&.ci-plus {
+		background-image: url('/images/icons/plus.png');
+	}
+
+	&.ci-phone {
+		background-image: url('/images/icons/phone.png');
+	}
+
+
+}

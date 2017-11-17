@@ -1,0 +1,32 @@
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  cache_directories:
+    - "~/.npm"
+    - "~/.meteor"
+    - "node_modules"
+    - "./.meteor/local/build"
+    - "./.meteor/local/bundler-cache"
+    - "./.meteor/local/isopacks"
+    - "./.meteor/local/plugin-cache"
+    - "/home/ubuntu/nvm/versions/node/v6.1.0/bin"
+    - "/home/ubuntu/nvm/versions/node/v6.1.0/lib/node_modules"
+  override:
+    # - ./.testing/upgrade_chrome_version.sh
+    # - ./.testing/cache_meteor.sh
+    # - ./.testing/cache_npm_dependencies.sh
+    # - ./.testing/cache_build_and_dependencies.sh
+    # - chimp --path=features # Cache chimp deps by running it without any tests
+checkout:
+  pre:
+    - meteor || curl https://install.meteor.com/ | sh
+  post:
+    - git submodule update --init
+    - meteor npm install
+deployment:
+  production:
+    branch: "master"
+    commands:
+      - echo $DEPLOY_JSON > /home/ubuntu/deployment.json
+      - meteor deploy tfa.meteorapp.com --settings ./settings.json
